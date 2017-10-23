@@ -1,0 +1,67 @@
+@keyframes race {
+    0%{
+    
+    }
+    
+    25% {
+        top:0;
+        left:700px;
+        
+    }
+    60% {
+        top:360px;
+        left:700px;
+         background:red;
+        border-color:black;
+    }
+    75% {
+        top:360px;
+        left:0;
+    }
+    100%{
+        
+        
+       
+        
+    }
+}
+
+
+
+@keyframes loading {
+    0% {
+        transform:scaleY(0);
+    }
+    
+    25% {
+        background:orangered;
+    }
+    50% {
+       transform: scaleY(1);
+        background-color:red;
+    }
+    
+    75 {
+        background;
+    }
+    100% {
+        transform: scaleY(0);
+    }
+}
+
+
+
+@keyframes spinner {
+    0% {
+       transform:scale(1) rotate(0);
+    }
+    
+    50% {
+        transform:scale(1.5) rotate(180deg);
+      
+    }
+    
+    100% {
+         transform:rotate(360deg) scale(1);
+    }
+}
